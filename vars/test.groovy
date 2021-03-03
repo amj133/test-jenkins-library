@@ -1,5 +1,5 @@
 #!/usr/bin/groovy
 
 def call(Map args) {
-  return tadaIsPrimaryBranch(args)
+  System.out.println("Open the pod bay doors Hal...");
 }
