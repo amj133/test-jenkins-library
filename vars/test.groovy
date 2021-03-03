@@ -1,11 +1,15 @@
 #!/usr/bin/groovy
 
 def call(Map args) {
+  String new_var
+
   println("Open the pod bay doors Hal...");
 
-  env.TEST_VAR = "I can't do the Dave";
+  env.TEST_VAR =
+  new_var = env.TEST_VAR;
+  new_var = "I can't do the Dave";
 
   println("Hal...open the pod bay doors...");
 
-  println(env.TEST_VAR);
+  return = new_var;
 }
