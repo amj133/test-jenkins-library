@@ -5,7 +5,6 @@ def call(Map args) {
 
   println("Open the pod bay doors Hal...");
 
-  env.TEST_VAR =
   new_var = env.TEST_VAR;
   new_var = "I can't do the Dave";
 
