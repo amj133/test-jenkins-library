@@ -10,5 +10,5 @@ def call(Map args) {
 
   println("Hal...open the pod bay doors...");
 
-  return = new_var;
+  return new_var;
 }
